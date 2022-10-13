@@ -1,0 +1,19 @@
+{
+  "name": "cypress-acessibility-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:murillowelsi/cypress-acessibility-tests.git",
+  "author": "Murillo Welsi <murillo.welsi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  },
+  "dependencies": {
+    "axe-core": "^4.4.3",
+    "cypress-axe": "^1.0.0"
+  }
+}
